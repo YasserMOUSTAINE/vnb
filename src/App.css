@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
+
+/* Créez une classe avec la police Syne */
+.syne {
+  font-family: "Syne", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400; /* Vous pouvez ajuster la valeur du poids ici (entre 400 et 800) */
+  font-style: normal;
+}

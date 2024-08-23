@@ -1,0 +1,28 @@
+/* index.css */
+
+/* Importer la police Syne depuis Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;800&display=swap');
+
+/* Définir la police de base pour l'ensemble de l'application */
+body {
+  font-family: 'Syne', sans-serif;
+  font-weight: 400; /* Poids par défaut */
+}
+
+/* Classes CSS pour des poids spécifiques */
+.font-weight-400 {
+  font-weight: 400;
+}
+
+.font-weight-600 {
+  font-weight: 600;
+}
+
+.font-weight-800 {
+  font-weight: 800;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
