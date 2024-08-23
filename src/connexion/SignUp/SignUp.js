@@ -1,6 +1,6 @@
 import React from 'react'
-import './login.css'
-import girl from "./image/girl.png"
+import './SignUp.css'
+import manSignup from "./image/manSignup.png"
 
 import google from "./image/google.png"
 import fb from "./image/f1.png"
@@ -17,7 +17,7 @@ import ToggleSwitch from './image/ToggleSwitch'
 import Svg7 from './Svg7'
 import vec from "./image/v.png"
 import flech from "./image/flech.png"
-function Login() {
+function SignUp() {
   return (
     <div style={{
         backgroundImage: `url(${groupImage})`,
@@ -33,7 +33,7 @@ function Login() {
               <div className='image-container'>
                 <div className='vecBG'>
                   <img src={vec} className='img-fluid vec' alt="Vector" /> {/* img-fluid pour un redimensionnement automatique */}
-                  <img src={girl} className='img-fluid imageGirl' style={{position: "absolute"}} alt="Girl" /> {/* img-fluid pour la réactivité */}
+                  <img src={manSignup} className='img-fluid imageGirl' style={{position: "absolute"}} alt="Girl" /> {/* img-fluid pour la réactivité */}
                 </div>
                 <div className='icons'>
                   <SVG1 />
@@ -56,7 +56,7 @@ function Login() {
             </div>
             <div style={{width:400,margin:70}}>
             <div>
-                <h3 style={{fontSize: 36}}>Connexion</h3>
+                <h3 style={{fontSize: 36}}>Une inscription</h3>
                 <p style={{fontSize: 18}}>Connectez-vous à votre compte</p>
             </div>
 
@@ -83,33 +83,25 @@ function Login() {
 
             {/**formulaire */}
             <div>
-                <input type='text' placeholder='E-mail' className='inp'/><br/>
-                <input type='password' placeholder='Mot de passe' className='inp'/>
+                <input type='text' placeholder='Nom et prénom *' className='inp'/><br/>
+                <input type='password' placeholder='E-mail *' className='inp'/><br/>
+                <input type='text' placeholder='Mot de passe *' className='inp'/><br/>
+                <input type='password' placeholder='Confirmez le mot de passe *' className='inp'/><br/>
             </div>
 
-            <div className='toogle'>
-                {/**toogle */}
-                <span style={{display:"inline-flex"}}>
-                    <ToggleSwitch/>
-                <p style={{fontSize:14}}>Souviens-toi de moi</p>
-                </span>
-                <div className='recuperer'>
-                    <a style={{fontSize:14}}>Récupérer mot de passe</a>
-                </div>
-                
-            </div>
+          
 
             {/**button connect */}
             <div>
                 <button className='log'>
-                    <span style={{fontSize:18,color:'white'}}>Je me connecte - Espace Enseignant</span>
+                    <span style={{fontSize:18,color:'white'}}>S'inscrire</span>
                 </button>
             </div>
 
             {/**inscription */}
             <div className='footer-log'>
-                <p>Vous n'avez pas de compte ? .<a className='a-foot fw-bold'> Inscription</a></p>
-                <p>Vous n'êtes pas enseignant ? <a className='a-foot fw-bold'>Espace candidat</a> </p>
+                <p>En continuant, vous indiquez que vous avez lu et accepté les conditions d'utilisation</p>
+                <p>avoir un compte? <a href="/" className='a-foot fw-bold'>Se connecter!</a> </p>
             </div>
             <img src={flech} className='flech2'/>
                 <Svg7/>
@@ -123,4 +115,4 @@ function Login() {
   )
 }
 
-export default Login
+export default SignUp

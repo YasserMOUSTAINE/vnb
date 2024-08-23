@@ -1,5 +1,5 @@
 import React from 'react'
-import '../login.css'
+import '../SignUp.css'
 function Vec5() {
   return (
     <div className='vec5'><svg width="59" height="87" viewBox="0 0 59 87" fill="none" xmlns="http://www.w3.org/2000/svg">

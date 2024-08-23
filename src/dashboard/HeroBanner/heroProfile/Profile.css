@@ -1,0 +1,14 @@
+.profile{
+    width: 291px;
+
+top: 202px;
+left: 73px;
+gap: 0px;
+border-radius: 12px ;
+opacity: 0px;
+background-color: white;
+
+}
+.nom{
+    font-size: 18px;
+}

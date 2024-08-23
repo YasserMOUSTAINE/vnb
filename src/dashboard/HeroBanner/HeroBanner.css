@@ -1,0 +1,25 @@
+.hero{
+    
+/* Rectangle 21 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 353px;
+height: 1041px;
+left: 25px;
+top: 45px;
+
+background: rgba(255, 255, 255, 0.67);
+border: 5px solid #FFFFFF;
+border-radius: 40px;
+
+
+}
+.image{
+    padding: 20px;
+}
+.profile3{
+    padding: 20px;
+    margin-left: 2%;
+}

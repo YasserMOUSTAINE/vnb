@@ -1,0 +1,45 @@
+.profile1{
+    padding-top: 20px;
+    width: 969px;
+    height: 305px;
+    padding-left: 30px;
+}
+.container{
+    margin: 0;
+}
+.text1{
+ font-size: 31px;
+}
+.text2{
+    font-size: 26px;
+}
+.imgGirl{
+    position: relative;
+    width: 574px;
+    height: 383px;
+    top: -98px ;
+}
+.container2 {
+    display: flex;
+    justify-content: space-between; /* Espace entre les deux div */
+    align-items: center; /* Aligner verticalement les éléments */
+    padding: 10px;
+  }
+  
+  .left {
+    font-size: 25PX;
+    flex: 1; /* Prend toute la largeur restante à gauche */
+  }
+  
+  .right {
+    display: flex; /* Permet de placer les SVG côte à côte */
+    gap: 10px; /* Espacement entre les SVG */
+  }
+  
+  .right svg {
+    width: 24px;
+    height: 24px;
+    fill: #000; /* Couleur des SVG */
+  }
+  
+  

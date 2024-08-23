@@ -1,0 +1,29 @@
+.postuler{
+    height: 270px;
+    width: 291px;
+   margin-top: 50px;
+}
+.textPostule{
+    padding-top: 10px;
+    font-size: 24px;
+    text-align: center;
+    
+}
+.explore{
+    display: flex;
+    height: 43px;
+    width: 240px;
+    background-color: rgba(255, 255, 255, 0.62);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 50PX;
+    margin-left: 25px;
+    
+    
+}
+.explore a{
+    text-decoration: none;
+    color: black;
+}

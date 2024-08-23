@@ -1,8 +1,8 @@
 import React from 'react'
-
+import "./Location.css"
 function Svg7() {
   return (
-    <div className='svg7'><svg width="166" height="14" viewBox="0 0 166 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <div className='vector777'><svg width="166" height="14" viewBox="0 0 166 14" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path d="M13.9 13.8H0V0H13.9V13.8Z" fill="url(#paint0_radial_813_3117)"/>
     <path d="M27.7004 13.8H13.9004V0H27.7004V13.8Z" fill="white"/>
     <path d="M41.5002 13.8H27.7002V0H41.5002V13.8Z" fill="url(#paint1_radial_813_3117)"/>

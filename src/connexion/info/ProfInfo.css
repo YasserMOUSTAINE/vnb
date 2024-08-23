@@ -1,6 +1,4 @@
-.bod{
-    height:800px
-}
+
 .btn-GF{
     width: 126px;
     height: 44px;
@@ -75,11 +73,29 @@ body{
     text-decoration: none;
     
 }
-.img{
-    width: 734.84px;
-height: 718px;
+.vec{
+    /* Vector */
+
+position: absolute;
+left: -1.46%;
+right: 42.08%;
+top: 0%;
+bottom: 9.21%;
+
 
 }
+.imageGirl{
+/* Clip path group */
+
+position: absolute;
+left: -4.24%;
+right: 46.26%;
+top: 0%;
+bottom: 9.21%;
+
+
+}
+
 
 
 
@@ -130,29 +146,58 @@ opacity: 0px;
     width: 55.94px;
     height: 78.21px;
     top: 360.65px;
-    left: 436px;
+    left: 565px;
     gap: 0px;
     opacity: 0px;
 
 }
 .vec5{
    
-        position: relative;
-        width: 55.94px;
-        height: 78.21px;
-        top: 275.65px;
-        left:444.41px;
-        gap: 0px;
-        opacity: 0px;
+    position: relative;
+    width: 55.94px;
+    height: 78.21px;
+    top: 275.65px;
+    left:575.41px;
+    gap: 0px;
+    opacity: 0px;
 }
-.svg7{
+.vector76{
     position: relative;
     width: 166px;
     height: 13.8px;
-    top: 127px;
-    left: 485px;
+    top: 62%;
+    left: 200px;
     gap: 0px;
     opacity: 0px;
 
 }
    
+.login3{
+    display: flex;
+    justify-content: center;
+    padding-top: 15%;
+    margin-left: 20%;
+}
+.flech1{
+    /* Group 1000005276 */
+
+position: absolute;
+width: 53px;
+height: 45.1px;
+left: 1305px;
+top: 51px;
+
+
+}
+
+.flech2{
+    /* Group 1000005284 */
+
+position: absolute;
+width: 53px;
+height: 45.1px;
+left: 1316px;
+top: 782px;
+
+
+}

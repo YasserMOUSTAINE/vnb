@@ -1,7 +1,7 @@
 import React from 'react'
 
 function SVG1() {
-  return (<div style={{position:"relative"}} className='svg1'>
+  return (<div style={{position:"relative",top:-5}} >
 
 <svg width="167" height="14" viewBox="0 0 167 14" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M14.2008 13.5998H0.300781V-0.200195H14.2008V13.5998Z" fill="url(#paint0_radial_813_3116)"/>

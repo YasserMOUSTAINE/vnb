@@ -1,0 +1,54 @@
+.navbar {
+    width: 291px;
+    height: 55px;
+    margin: 15px;
+    gap: 0px;
+    border-radius: 32px;
+    background: linear-gradient(95.07deg, #C43CAB 7.11%, #F87E4B 91.63%);
+    opacity: 1; /* Opacité réglée à 1 pour rendre visible */
+  }
+  
+  .span2 {
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    margin-left: 60px;
+  }
+  
+  .vertical-navbar {
+    position: static;
+    display: flex;
+    flex-direction: column;
+    
+    padding-top: 20px;
+  }
+  
+  .vertical-navbar a {
+    width: 291px;
+    height: 55px;
+    margin-top: 5px;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    display: block;
+    border-radius: 32px;
+    background-color: #ffffff; /* Couleur de fond par défaut */
+    transition: background 0.3s ease; /* Transition fluide */
+  }
+  
+  .vertical-navbar a:hover {
+    background: linear-gradient(95.07deg, #C43CAB 7.11%, #F87E4B 91.63%);
+    color: white; /* Assurez-vous que le texte reste visible */
+  }
+  
+  .vertical-navbar a.active {
+    background: linear-gradient(95.07deg, #C43CAB 7.11%, #F87E4B 91.63%);
+    color: white;
+  }
+  .span2 a.active{
+    color: white;
+  }
+  
+hr{
+  margin-top: 25px;
+}
